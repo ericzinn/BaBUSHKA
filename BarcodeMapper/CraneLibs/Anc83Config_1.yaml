@@ -1,0 +1,31 @@
+libName: Anc83_1BC_
+
+barcodeDict:
+    'B1_ACG': 0
+    'B1_AGC': 1
+    'B2_AAG': 0
+    'B2_AGA': 1
+    'B3_AAC': 0
+    'B3_AGC': 1
+    'B4_CAA': 0
+    'B4_GAA': 1
+    'B5_ACC': 0
+    'B5_AAC': 1
+    'B6_GAC': 0
+    'B6_GAG': 1
+    'B7_ATC': 0
+    'B7_GTC': 1
+    'B8_ATA': 0
+    'B8_GTA': 1
+
+barcodeArray:
+    - 'B1'
+    - 'B2'
+    - 'B3'
+    - 'B4'
+    - 'B5'
+    - 'B6'
+    - 'B7'
+    - 'B8'
+
+libSize: 256

@@ -1,0 +1,53 @@
+libName: Anc80BC_
+
+barcodeDict:
+    'B1_AAA': 0
+    'B1_AGA': 1
+    'B2_GCA': 0
+    'B2_TCA': 1
+    'B3_GCA': 0
+    'B3_GGA': 1
+    'B4_AAA': 0
+    'B4_AGA': 1
+    'B5_CAG': 0
+    'B5_GAG': 1
+    'B6_ACG': 0
+    'B6_GAG': 1
+    'B7_ACG': 0
+    'B7_GCG': 1
+    'B8_AAT': 0
+    'B8_AGT': 1
+    'B9_CAG': 0
+    'B9_GAG': 1
+    'B10_GCA': 0
+    'B10_TCA': 1
+    'B11_AAC': 0
+    'B11_GAC': 1
+
+barcodeIndices:
+    'B11': 0
+    'B10': 7
+    'B9': 14
+    'B8': 21
+    'B7': 28 
+    'B6': 35
+    'B5': 42
+    'B4': 49
+    'B3': 56
+    'B2': 63
+    'B1': 70
+
+barcodeArray:
+    - 'B1'
+    - 'B2'
+    - 'B3'
+    - 'B4'
+    - 'B5'
+    - 'B6'
+    - 'B7'
+    - 'B8'
+    - 'B9'
+    - 'B10'
+    - 'B11'
+
+libSize: 2048

@@ -1,0 +1,26 @@
+libName: Anc84BC_
+
+barcodeDict:
+    'B1_AAA': "K"
+    'B1_AGA': "R"
+    'B2_AAC': "N"
+    'B2_AGC': "S"
+    'B3_GAC': "D"
+    'B3_GAG': "E"
+    'B4_ATC': "I"
+    'B4_GTC': "V"
+
+
+barcodeIndices:
+    'B4': 0
+    'B3': 7
+    'B2': 14
+    'B1': 21
+
+barcodeArray:
+    - 'B1'
+    - 'B2'
+    - 'B3'
+    - 'B4'
+
+libSize: 16

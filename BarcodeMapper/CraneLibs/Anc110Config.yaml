@@ -1,0 +1,49 @@
+libName: Anc110BC_
+
+barcodeDict:
+    'B1_ACG': 0
+    'B1_TCG': 1
+    'B2_AAA': 0 
+    'B2_AGA': 1
+    'B3_GCA': 0
+    'B3_GGA': 1
+    'B4_CAA': 0
+    'B4_GCA': 1
+    'B5_ACC': 0
+    'B5_GCC': 1
+    'B6_TAT': 0
+    'B6_TTT': 1
+    'B7_AAA': 0
+    'B7_CAC': 1
+    'B8_AAC': 0
+    'B8_CAA': 1
+    'B9_AAC': 0
+    'B9_CAC': 1
+    'B10_GCC': 0
+    'B10_TCC': 1
+
+barcodeIndices:
+    'B10': 0
+    'B9':  7
+    'B8': 14
+    'B7': 21 
+    'B6': 28
+    'B5': 35
+    'B4': 42
+    'B3': 49
+    'B2': 56
+    'B1': 63
+
+barcodeArray:
+    - 'B1'
+    - 'B2'
+    - 'B3'
+    - 'B4'
+    - 'B5'
+    - 'B6'
+    - 'B7'
+    - 'B8'
+    - 'B9'
+    - 'B10'
+
+libSize: 1024

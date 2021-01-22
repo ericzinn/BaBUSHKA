@@ -1,0 +1,42 @@
+libName: Anc83BC_
+
+barcodeDict:
+    'B1_ACG': "T"
+    'B1_AGC': "S"
+    'B2_AAG': "K"
+    'B2_AGA': "R"
+    'B3_AAC': "N"
+    'B3_AGC': "S"
+    'B4_CAA': "Q"
+    'B4_GAA': "E"
+    'B5_AAC': "N"
+    'B5_ACC': "T"
+    'B5_AGC': "S"
+    'B6_GAC': "D"
+    'B6_GAG': "E"
+    'B7_ATC': "I"
+    'B7_GTC': "V"
+    'B8_ATA': "I"
+    'B8_GTA': "V"
+
+barcodeArray:
+    - 'B1'
+    - 'B2'
+    - 'B3'
+    - 'B4'
+    - 'B5'
+    - 'B6'
+    - 'B7'
+    - 'B8'
+
+barcodeIndices:
+    'B8': 0
+    'B7': 7
+    'B6': 14
+    'B5': 21
+    'B4': 28 
+    'B3': 35
+    'B2': 42
+    'B1': 49
+
+libSize: 384

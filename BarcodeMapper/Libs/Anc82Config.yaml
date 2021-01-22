@@ -1,0 +1,21 @@
+libName: Anc82BC_
+
+barcodeDict:
+    'B1_ACG': "T"
+    'B1_AGC': "S"
+    'B2_AAA': "K"
+    'B2_AGA': "R"
+    'B3_AAC': "N"
+    'B3_AGC': "S"
+
+barcodeArray:
+    - 'B1'
+    - 'B2'
+    - 'B3'
+
+barcodeIndices:
+    'B3': 0
+    'B2': 7
+    'B1': 14
+
+libSize: 8

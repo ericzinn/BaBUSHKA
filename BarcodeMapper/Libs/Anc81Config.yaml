@@ -1,0 +1,69 @@
+libName: Anc81BC_
+
+barcodeDict:
+    'B1_ACG': "T"
+    'B1_AGC': "S"
+    'B2_AAA': "K"
+    'B2_AGA': "R"
+    'B3_AAC': "N"
+    'B3_AGT': "S"
+    'B4_AGC': "S"
+    'B4_CAC': "H"
+    'B5_AAG': "K"
+    'B5_AGA': "R"
+    'B6_CAG': "Q"
+    'B6_GAG': "E"
+    'B7_CAG': "Q"
+    'B7_CGG': "R"
+    'B8_ACG': "T"
+    'B8_GAG': "E"
+    'B9_AGC': "S"
+    'B9_GAC': "D"
+    'B10_CTT': "L"
+    'B10_TAC': "Y"
+    'B11_AGC': "S"
+    'B11_GAC': "D"
+    'B12_AAC': "N"
+    'B12_AGT': "S"
+    'B13_ATC': "I"
+    'B13_GTG': "V"
+    'B14_AGC': "S"
+    'B14_GCA': "A"
+    'B15_ACC': "T"
+    'B15_AGT': "S"
+
+barcodeArray:
+    - 'B1'
+    - 'B2'
+    - 'B3'
+    - 'B4'
+    - 'B5'
+    - 'B6'
+    - 'B7'
+    - 'B8'
+    - 'B9'
+    - 'B10'
+    - 'B11'
+    - 'B12'
+    - 'B13'
+    - 'B14'
+    - 'B15'
+
+barcodeIndices:
+    'B15': 0
+    'B14': 6
+    'B13': 12
+    'B12': 18
+    'B11': 25 
+    'B10': 28
+    'B9': 35
+    'B8': 42
+    'B7': 45
+    'B6': 52
+    'B5': 55
+    'B4': 62
+    'B3': 65 
+    'B2': 72
+    'B1': 75
+
+libSize: 32768

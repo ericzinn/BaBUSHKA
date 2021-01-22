@@ -1,0 +1,37 @@
+libName: Anc127BC_
+
+barcodeDict:
+    'B1_AGT': 0
+    'B1_GGT': 1
+    'B2_AAA': 0
+    'B2_AGA': 1
+    'B3_AAA': 0
+    'B3_AGA': 1
+    'B4_ACA': 0
+    'B4_CAG': 1
+    'B5_AGA': 0
+    'B5_AGC': 1
+    'B6_CAA': 0
+    'B6_CTC': 1
+    'B7_GCT': 0
+    'B7_TCT': 1
+    'B8_AAA': 0
+    'B8_AGA': 1
+    'B9_GCG': 0
+    'B9_GGG': 1
+    'B10_GAC': 0
+    'B10_GTT': 1
+
+barcodeArray:
+    - 'B1'
+    - 'B2'
+    - 'B3'
+    - 'B4'
+    - 'B5'
+    - 'B6'
+    - 'B7'
+    - 'B8'
+    - 'B9'
+    - 'B10'
+
+libSize: 1024

@@ -1,0 +1,19 @@
+libName: Anc84BC_
+
+barcodeDict:
+    'B1_AAA': 0
+    'B1_AGA': 1
+    'B2_AAC': 0
+    'B2_AGC': 1
+    'B3_GAC': 0
+    'B3_GAG': 1
+    'B4_ATC': 0
+    'B4_GTC': 1
+
+barcodeArray:
+    - 'B1'
+    - 'B2'
+    - 'B3'
+    - 'B4'
+
+libSize: 16
