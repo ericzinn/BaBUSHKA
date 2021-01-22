@@ -1,28 +1,28 @@
 libName: Anc80BC_
 
 barcodeDict:
-    'B1_AAA': 0
-    'B1_AGA': 1
-    'B2_GCA': 0
-    'B2_TCA': 1
-    'B3_GCA': 0
-    'B3_GGA': 1
-    'B4_AAA': 0
-    'B4_AGA': 1
-    'B5_CAG': 0
-    'B5_GAG': 1
-    'B6_ACG': 0
-    'B6_GAG': 1
-    'B7_ACG': 0
-    'B7_GCG': 1
-    'B8_AAT': 0
-    'B8_AGT': 1
-    'B9_CAG': 0
-    'B9_GAG': 1
-    'B10_GCA': 0
-    'B10_TCA': 1
-    'B11_AAC': 0
-    'B11_GAC': 1
+    'B1_AAA': "K" #AAA/AGA = ARA
+    'B1_AGA': "R"
+    'B2_GCA': "A" #GCA/TCA = KCA
+    'B2_TCA': "S"
+    'B3_GCA': "A" #GCA/GGA = GSA
+    'B3_GGA': "G"
+    'B4_AAA': "K" #AAA/AGA = ARA
+    'B4_AGA': "R"
+    'B5_CAG': "Q" #CAG/GAG = SAG
+    'B5_GAG': "E"
+    'B6_ACG': "T" #ACG/GAG = RMG
+    'B6_GAG': "E"
+    'B7_ACG': "T" #ACG/GCG = RCG
+    'B7_GCG': "A"
+    'B8_AAT': "N" #AAT/AGT = ART
+    'B8_AGT': "S"
+    'B9_CAG': "Q" #CAG/GAG = SAG
+    'B9_GAG': "E" 
+    'B10_GCA': "A" #GCA/TCA = KCA
+    'B10_TCA': "S"
+    'B11_AAC': "N" #AAC/GAC = RAC
+    'B11_GAC': "D"
 
 barcodeIndices:
     'B11': 0

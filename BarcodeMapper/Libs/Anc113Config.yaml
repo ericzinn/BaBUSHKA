@@ -1,0 +1,37 @@
+libName: Anc113BC_
+
+barcodeDict:
+    'B1_CAG': "Q" #AAA/AGA = ARA
+    'B1_CCG': "P"
+    'B2_AAA': "K" #GCA/TCA = KCA
+    'B2_AGA': "R"
+    'B3_AAC': "N" #GCA/GGA = GSA
+    'B3_CGC': "R"
+    'B4_CAC': "H" #AAA/AGA = ARA
+    'B4_TAC': "Y"
+    'B5_AAT': "N" #CAG/GAG = SAG
+    'B5_AGT': "S"
+    'B6_ATA': "I" #ACG/GAG = RMG
+    'B6_GTA': "V"
+    'B7_GCT': "A" #ACG/GCG = RCG
+    'B7_TCT': "S"
+
+barcodeIndices:
+    'B7': 0
+    'B6': 7
+    'B5': 14
+    'B4': 21
+    'B3': 28 
+    'B2': 35
+    'B1': 42
+
+barcodeArray:
+    - 'B1'
+    - 'B2'
+    - 'B3'
+    - 'B4'
+    - 'B5'
+    - 'B6'
+    - 'B7'
+
+libSize: 64

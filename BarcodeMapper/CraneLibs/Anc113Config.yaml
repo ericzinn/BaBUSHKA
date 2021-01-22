@@ -1,0 +1,28 @@
+libName: Anc113BC_
+
+barcodeDict:
+    'B1_CAG': 0
+    'B1_CCG': 1
+    'B2_AAA': 0
+    'B2_AGA': 1
+    'B3_AAC': 0
+    'B3_CGC': 1
+    'B4_CAC': 0
+    'B4_TAC': 1
+    'B5_AAT': 0
+    'B5_AGT': 1
+    'B6_ATA': 0
+    'B6_GTA': 1
+    'B7_GCT': 0
+    'B7_TCT': 1
+
+barcodeArray:
+    - 'B1'
+    - 'B2'
+    - 'B3'
+    - 'B4'
+    - 'B5'
+    - 'B6'
+    - 'B7'
+
+libSize: 128

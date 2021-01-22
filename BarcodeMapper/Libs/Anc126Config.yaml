@@ -1,24 +1,24 @@
 libName: Anc126BC_
 
 barcodeDict:
-    'B1_ACA': 0
-    'B1_TCA': 1
-    'B2_AAA': 0
-    'B2_AGA': 1
-    'B3_GCC': 0
-    'B3_TCC': 1
-    'B4_AAA': 0
-    'B4_AGA': 1
-    'B5_ACC': 0
-    'B5_CAG': 1
-    'B6_AAC': 0
-    'B6_AGC': 1
-    'B7_CAG': 0
-    'B7_CTG': 1
-    'B8_GCT': 0
-    'B8_TCT': 1
-    'B9_ACC': 0
-    'B9_GCC': 1
+    'B1_ACA': "T"
+    'B1_TCA': "S"
+    'B2_AAA': "K"
+    'B2_AGA': "R"
+    'B3_GCC': "A"
+    'B3_TCC': "S"
+    'B4_AAA': "K"
+    'B4_AGA': "R"
+    'B5_ACC': "T"
+    'B5_CAG': "Q"
+    'B6_AAC': "N"
+    'B6_AGC': "S"
+    'B7_CAG': "Q"
+    'B7_CTG': "L"
+    'B8_GCT': "A"
+    'B8_TCT': "S"
+    'B9_ACC': "T"
+    'B9_GCC': "A"
 
 barcodeIndices:
     'B9': 0
