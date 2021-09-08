@@ -3,7 +3,7 @@
    Note, this particular version uses 'legacy' names (such as Anc80BC_1317) instead
    of current naming conventions
 
-Copyright (c) 2020 Eric Zinn
+Copyright (c) 2021 Eric Zinn
 
 This code is free software;  you can redstribute it and/or modify it under the terms of the AGPL
 license (see LICENSE file included in the distribution)
@@ -176,17 +176,17 @@ for yamlFile in libList:
             # hack to include barcodes with '0' counts in the file and organize the barcodes
             # by their numeric representation (in ascending order)
             hackedCounts = []
-            barcodeDict = dict(barodeCounts)
+            barcodeDict = dict(barcodeCounts)
 
-            for x in range(0, yamlFile['libSize']):
+            for x in range(0, int(cfg['libSize'])):
                 # Check to see if a given barcode has been mapped (by referencing a dict)
-                if barcodeDict.get(yamlFile['libName'] + str(x)):
+                if barcodeDict.get(cfg['libName'] + str(x)):
                     # If so, append a tuple containing the barcode name and the number of counts to the
                     # 'hackedCounts' list
-                    hackedCounts.append((yamlFile['libName'] + str(x), barcodeDict[(yamlFile['libName'] + str(x))]))
+                    hackedCounts.append((cfg['libName'] + str(x), barcodeDict[(cfg['libName'] + str(x))]))
                 else:
                     # If not, then append a count of 0
-                    hackedCounts.append((yamlFile['libName'] + str(x), 0))
+                    hackedCounts.append((cfg['libName'] + str(x), 0))
 
             writeCountsToCSV(outputPath + inputPrefix + cfg['libName'] + '.csv', hackedCounts)
 
